@@ -1,6 +1,6 @@
 This is a free c.ai plus site that works even when c.ai is down.
 
-This is a lightly modified package of (https://www.npmjs.com/package/node_characterai)[This package] so all credits go to the owner.
+This is a lightly modified package of [This package](https://www.npmjs.com/package/node_characterai) so all credits go to the owner.
 
 You will also need puppeteer installed so run
 ```
