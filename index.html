@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Free C.AI plus trolling made by master of the lines</title>
+</head>
+<body>
+  <div id="container">
+      <label>Login as:</label>
+    <div id="login-container">
+      <button onclick="loginAsGuest()">Guest</button>
+      <button onclick="showTokenInput()">Token</button>
+
+      <div id="token-input" style="display: none;">
+        <label>Token:</label>
+        <input type="text" id="token" placeholder="Enter your token">
+        <button onclick="loginWithToken()">Login</button>
+      </div>
+
+      <div id="character-input" style="display: none;">
+        <label>Character ID:</label>
+        <input type="text" id="characterId" placeholder="Enter character ID">
+        <button onclick="startChat()">Start Chat</button>
+      </div>
+    </div>
+
+    <div id="chat-container" style="display: none;">
+      <div id="message-history"></div>
+      <label for="message">Send Message:</label>
+      <div class="message-input">
+        <input type="text" id="message" placeholder="Type your message">
+        <button onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
