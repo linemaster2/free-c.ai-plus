@@ -41,3 +41,5 @@ You can find your character ID in the URL of a Character's chat page.
 For example, if you go to the chat page of the character Test Character you will see the URL https://beta.character.ai/chat?char=8_1NyR8w1dOXmI1uWaieQcd147hecbdIK7CeEAIrdJw.
 
 The last part of the URL is the character ID: ![Picture lol](https://camo.githubusercontent.com/4dd4c40b7ac315e0b2a0342aeea3ad36774fd1edd6c76f1e6f00dd624596abb5/68747470733a2f2f692e696d6775722e636f6d2f6e643836664e342e706e67)
+
+Credits go to owner for the tutorial lol
